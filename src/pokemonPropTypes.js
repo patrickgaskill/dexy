@@ -1,5 +1,10 @@
 import PropTypes from "prop-types";
-import gendersPropTypes from "./gendersPropTypes";
+import possibleGenders from "./possibleGenders";
+
+const genderPropTypes = {};
+for (const g of possibleGenders) {
+  genderPropTypes[g] = PropTypes.bool;
+}
 
 export default PropTypes.shape({
   id: PropTypes.number.isRequired,
