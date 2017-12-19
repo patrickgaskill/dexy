@@ -12,5 +12,5 @@ export default PropTypes.shape({
   seen: PropTypes.bool.isRequired,
   regional: PropTypes.bool,
   legendary: PropTypes.bool,
-  genders: gendersPropTypes.isRequired
+  genders: genderPropTypes.isRequired
 });
