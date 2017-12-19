@@ -12,6 +12,18 @@ export default class PokedexEntry extends React.Component {
     onGenderClick: PropTypes.func.isRequired
   };
 
+  shouldComponentUpdate(nextProps) {
+    if (nextProps.pokemon.seen !== this.props.pokemon.seen) {
+      return true;
+    }
+
+    if (nextProps.pokemon.genders !== this.props.pokemon.genders) {
+      return true;
+    }
+
+    return false;
+  }
+
   formatNumber = id => `#${id.toString().padStart(3, "0")}`;
 
   render() {

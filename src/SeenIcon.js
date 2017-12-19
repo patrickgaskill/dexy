@@ -6,11 +6,19 @@ const COLORS = {
   seen: "#7E57C2"
 };
 
-export default class SeenIcon extends React.PureComponent {
+export default class SeenIcon extends React.Component {
   static propTypes = {
     disabled: PropTypes.bool,
     onClick: PropTypes.func.isRequired
   };
+
+  shouldComponentUpdate(nextProps) {
+    if (nextProps.disabled !== this.props.disabled) {
+      return true;
+    }
+
+    return false;
+  }
 
   render() {
     const { disabled, onClick } = this.props;

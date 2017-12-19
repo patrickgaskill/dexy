@@ -11,12 +11,24 @@ const COLORS = {
   shiny: "#FFA726"
 };
 
-export default class GenderIcon extends React.PureComponent {
+export default class GenderIcon extends React.Component {
   static propTypes = {
     gender: PropTypes.oneOf(possibleGenders).isRequired,
     disabled: PropTypes.bool,
     onClick: PropTypes.func.isRequired
   };
+
+  shouldComponentUpdate(nextProps) {
+    if (nextProps.gender !== this.props.gender) {
+      return true;
+    }
+
+    if (nextProps.disabled !== this.props.disabled) {
+      return true;
+    }
+
+    return false;
+  }
 
   render() {
     const { gender, disabled, onClick } = this.props;
