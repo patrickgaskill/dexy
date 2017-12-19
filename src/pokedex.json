@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "Bulbasaur",
+    "seen": false,
+    "genders": {
+      "male": false,
+      "female": false
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ivysaur",
+    "seen": false,
+    "genders": {
+      "male": false,
+      "female": false
+    }
+  },
+  {
+    "id": 3,
+    "name": "Venusaur",
+    "seen": false,
+    "genders": {
+      "male": false,
+      "female": false
+    }
+  },
+  {
+    "id": 29,
+    "name": "Nidoran♀",
+    "seen": false,
+    "genders": {
+      "female": false
+    }
+  },
+  {
+    "id": 81,
+    "name": "Magnemite",
+    "seen": false,
+    "genders": {
+      "genderless": false
+    }
+  },
+  {
+    "id": 128,
+    "name": "Tauros",
+    "seen": false,
+    "regional": true,
+    "genders": {
+      "male": false
+    }
+  },
+  {
+    "id": 129,
+    "name": "Magikarp",
+    "seen": false,
+    "genders": {
+      "male": false,
+      "maleShiny": false,
+      "female": false,
+      "femaleShiny": false
+    }
+  },
+  {
+    "id": 146,
+    "name": "Moltres",
+    "seen": false,
+    "legendary": true,
+    "genders": {
+      "genderless": false
+    }
+  },
+  {
+    "id": 201,
+    "name": "Unown",
+    "seen": false,
+    "genders": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "d": false,
+      "e": false,
+      "f": false,
+      "g": false,
+      "h": false,
+      "i": false,
+      "j": false,
+      "k": false,
+      "l": false,
+      "m": false,
+      "n": false,
+      "o": false,
+      "p": false,
+      "q": false,
+      "r": false,
+      "s": false,
+      "t": false,
+      "u": false,
+      "v": false,
+      "w": false,
+      "x": false,
+      "y": false,
+      "z": false
+    }
+  }
+]

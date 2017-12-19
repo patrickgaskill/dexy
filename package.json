@@ -1,0 +1,40 @@
+{
+  "name": "dexy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "precommit": "lint-staged",
+    "lint": "eslint src/**/*.js"
+  },
+  "lint-staged": {
+    "*.{js,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "immutability-helper": "^2.6.2",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.77.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "babel-plugin-lodash": "^3.3.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.13.1",
+    "eslint-plugin-react": "^7.5.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.0.0",
+    "parcel-bundler": "^1.2.1",
+    "prettier": "^1.9.2"
+  }
+}
