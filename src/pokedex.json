@@ -156,13 +156,23 @@
     "id": 25,
     "name": "Pikachu",
     "seen": false,
-    "genders": { "male": false, "female": false }
+    "genders": {
+      "male": false,
+      "maleShiny": false,
+      "female": false,
+      "femaleShiny": false
+    }
   },
   {
     "id": 26,
     "name": "Raichu",
     "seen": false,
-    "genders": { "male": false, "female": false }
+    "genders": {
+      "male": false,
+      "maleShiny": false,
+      "female": false,
+      "femaleShiny": false
+    }
   },
   {
     "id": 27,
@@ -786,7 +796,12 @@
     "id": 130,
     "name": "Gyarados",
     "seen": false,
-    "genders": { "male": false, "female": false }
+    "genders": {
+      "male": false,
+      "maleShiny": false,
+      "female": false,
+      "femaleShiny": false
+    }
   },
   {
     "id": 131,
@@ -1038,7 +1053,12 @@
     "id": 172,
     "name": "Pichu",
     "seen": false,
-    "genders": { "male": false, "female": false }
+    "genders": {
+      "male": false,
+      "maleShiny": false,
+      "female": false,
+      "femaleShiny": false
+    }
   },
   {
     "id": 173,
@@ -1529,5 +1549,367 @@
     "seen": false,
     "legendary": true,
     "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 252,
+    "name": "Treecko",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 253,
+    "name": "Grovyle",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 254,
+    "name": "Sceptile",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 255,
+    "name": "Torchic",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 256,
+    "name": "Combusken",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 257,
+    "name": "Blaziken",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 258,
+    "name": "Mudkip",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 259,
+    "name": "Marshtomp",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 260,
+    "name": "Swampert",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 261,
+    "name": "Poochyena",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 262,
+    "name": "Mightyena",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 263,
+    "name": "Zigzagoon",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 264,
+    "name": "Linoone",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 265,
+    "name": "Wurmple",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 266,
+    "name": "Silcoon",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 267,
+    "name": "Beautifly",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 268,
+    "name": "Cascoon",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 269,
+    "name": "Dustox",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 273,
+    "name": "Seedot",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 274,
+    "name": "Nuzleaf",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 275,
+    "name": "Shiftry",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 280,
+    "name": "Ralts",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 281,
+    "name": "Kirlia",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 282,
+    "name": "Gardevoir",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 285,
+    "name": "Shroomish",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 286,
+    "name": "Breloom",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 287,
+    "name": "Slakoth",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 288,
+    "name": "Vigoroth",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 289,
+    "name": "Slaking",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 296,
+    "name": "Makuhita",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 297,
+    "name": "Hariyama",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 298,
+    "name": "Azurill",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 300,
+    "name": "Skitty",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 301,
+    "name": "Delcatty",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 302,
+    "name": "Sableye",
+    "seen": false,
+    "genders": {
+      "male": false,
+      "maleShiny": false,
+      "female": false,
+      "femaleShiny": false
+    }
+  },
+  {
+    "id": 303,
+    "name": "Mawile",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 307,
+    "name": "Meditite",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 308,
+    "name": "Medicham",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 309,
+    "name": "Electrike",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 310,
+    "name": "Manectric",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 311,
+    "name": "Plusle",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 312,
+    "name": "Minun",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 315,
+    "name": "Roselia",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 316,
+    "name": "Gulpin",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 317,
+    "name": "Swalot",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 325,
+    "name": "Spoink",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 326,
+    "name": "Grumpig",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 335,
+    "name": "Zangoose",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 336,
+    "name": "Seviper",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 353,
+    "name": "Shuppet",
+    "seen": false,
+    "genders": {
+      "male": false,
+      "maleShiny": false,
+      "female": false,
+      "femaleShiny": false
+    }
+  },
+  {
+    "id": 354,
+    "name": "Banette",
+    "seen": false,
+    "genders": {
+      "male": false,
+      "maleShiny": false,
+      "female": false,
+      "femaleShiny": false
+    }
+  },
+  {
+    "id": 355,
+    "name": "Duskull",
+    "seen": false,
+    "genders": {
+      "male": false,
+      "maleShiny": false,
+      "female": false,
+      "femaleShiny": false
+    }
+  },
+  {
+    "id": 356,
+    "name": "Dusclops",
+    "seen": false,
+    "genders": {
+      "male": false,
+      "maleShiny": false,
+      "female": false,
+      "femaleShiny": false
+    }
+  },
+  {
+    "id": 359,
+    "name": "Absol",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 360,
+    "name": "Wynaut",
+    "seen": false,
+    "genders": { "male": false, "female": false }
+  },
+  {
+    "id": 383,
+    "name": "Groudon",
+    "seen": false,
+    "legendary": true,
+    "genders": { "genderless": false }
   }
 ]
