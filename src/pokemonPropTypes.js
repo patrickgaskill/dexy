@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import GendersPropTypes from "./GendersPropTypes";
+import gendersPropTypes from "./gendersPropTypes";
 
 export default PropTypes.shape({
   id: PropTypes.number.isRequired,
@@ -7,5 +7,5 @@ export default PropTypes.shape({
   seen: PropTypes.bool.isRequired,
   regional: PropTypes.bool,
   legendary: PropTypes.bool,
-  genders: GendersPropTypes.isRequired
+  genders: gendersPropTypes.isRequired
 });
