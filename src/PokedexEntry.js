@@ -22,24 +22,18 @@ export default class PokedexEntry extends React.Component {
     } = this.props;
 
     return (
-      <Grid.Row style={{ borderBottom: "solid 1px #E0E0E0" }}>
-        {regional && (
-          <Label color="green" attached="top left">
-            Regional
-          </Label>
-        )}
-        {legendary && (
-          <Label color="orange" attached="top left">
-            Legendary
-          </Label>
-        )}
+      <Grid.Row className={"pokedex-entry"}>
         <Grid.Column width={4}>
           <div>
             <strong>{name}</strong>
           </div>
           <div>{this.formatNumber(id)}</div>
         </Grid.Column>
-        <Grid.Column width={12} textAlign="right">
+        <Grid.Column width={4}>
+          {regional && <Label color="green">Regional</Label>}
+          {legendary && <Label color="orange">Legendary</Label>}
+        </Grid.Column>
+        <Grid.Column width={8} textAlign="right">
           <SeenIcon disabled={!seen} onClick={onSeenClick} />
           {Object.keys(genders).map(g => (
             <GenderIcon

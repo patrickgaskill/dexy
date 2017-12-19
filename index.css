@@ -1,3 +1,7 @@
 * {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
+.pokedex-entry {
+  border-bottom: solid 1px #e0e0e0;
+}
