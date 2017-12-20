@@ -1769,7 +1769,12 @@
     "id": 303,
     "name": "Mawile",
     "seen": false,
-    "genders": { "male": false, "female": false }
+    "genders": {
+      "male": false,
+      "maleShiny": true,
+      "female": false,
+      "femaleShiny": true
+    }
   },
   {
     "id": 307,
@@ -1897,7 +1902,12 @@
     "id": 359,
     "name": "Absol",
     "seen": false,
-    "genders": { "male": false, "female": false }
+    "genders": {
+      "male": false,
+      "maleShiny": true,
+      "female": false,
+      "femaleShiny": true
+    }
   },
   {
     "id": 360,
